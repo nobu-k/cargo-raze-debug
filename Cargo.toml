@@ -1,0 +1,13 @@
+[workspace]
+
+members = [
+    "test-lib",
+    "test-bin",
+]
+
+[workspace.metadata.raze]
+workspace_path = "//cargo"
+genmode = "Remote"
+default_gen_buildrs = true
+experimental_api = true
+render_package_aliases = false
