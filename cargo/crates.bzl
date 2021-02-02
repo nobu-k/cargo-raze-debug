@@ -15,6 +15,8 @@ _DEPENDENCIES = {
     },
     "/test-bin": {
     },
+    "/nested/lib": {
+    },
 }
 
 # EXPERIMENTAL -- MAY CHANGE AT ANY TIME: A mapping of package names to a set of proc_macro dependencies for the Rust targets of that package.
@@ -22,6 +24,8 @@ _PROC_MACRO_DEPENDENCIES = {
     "/test-lib": {
     },
     "/test-bin": {
+    },
+    "/nested/lib": {
     },
 }
 
@@ -31,6 +35,8 @@ _DEV_DEPENDENCIES = {
     },
     "/test-bin": {
     },
+    "/nested/lib": {
+    },
 }
 
 # EXPERIMENTAL -- MAY CHANGE AT ANY TIME: A mapping of package names to a set of proc_macro dev dependencies for the Rust targets of that package.
@@ -38,6 +44,8 @@ _DEV_PROC_MACRO_DEPENDENCIES = {
     "/test-lib": {
     },
     "/test-bin": {
+    },
+    "/nested/lib": {
     },
 }
 

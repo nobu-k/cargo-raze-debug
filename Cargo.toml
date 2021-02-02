@@ -3,6 +3,7 @@
 members = [
     "test-lib",
     "test-bin",
+    "nested/lib",
 ]
 
 [workspace.metadata.raze]
