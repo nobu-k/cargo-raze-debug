@@ -11,33 +11,33 @@ load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")  # buildifier: di
 
 # EXPERIMENTAL -- MAY CHANGE AT ANY TIME: A mapping of package names to a set of normal dependencies for the Rust targets of that package.
 _DEPENDENCIES = {
-    "/test-lib": {
+    "projects/test-lib": {
     },
-    "/test-bin": {
+    "projects/test-bin": {
     },
 }
 
 # EXPERIMENTAL -- MAY CHANGE AT ANY TIME: A mapping of package names to a set of proc_macro dependencies for the Rust targets of that package.
 _PROC_MACRO_DEPENDENCIES = {
-    "/test-lib": {
+    "projects/test-lib": {
     },
-    "/test-bin": {
+    "projects/test-bin": {
     },
 }
 
 # EXPERIMENTAL -- MAY CHANGE AT ANY TIME: A mapping of package names to a set of normal dev dependencies for the Rust targets of that package.
 _DEV_DEPENDENCIES = {
-    "/test-lib": {
+    "projects/test-lib": {
     },
-    "/test-bin": {
+    "projects/test-bin": {
     },
 }
 
 # EXPERIMENTAL -- MAY CHANGE AT ANY TIME: A mapping of package names to a set of proc_macro dev dependencies for the Rust targets of that package.
 _DEV_PROC_MACRO_DEPENDENCIES = {
-    "/test-lib": {
+    "projects/test-lib": {
     },
-    "/test-bin": {
+    "projects/test-bin": {
     },
 }
 
