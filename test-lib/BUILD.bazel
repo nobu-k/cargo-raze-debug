@@ -1,0 +1,10 @@
+load("@rules_rust//rust:rust.bzl", "rust_library")
+load("//cargo:crates.bzl", "crate_deps")
+
+rust_library(
+    name = "test-lib",
+    srcs = glob(["src/**/*.rs"]),
+    deps = crate_deps(
+        ["rand"],  # fails because "test-lib" is not found due to a leading slash
+    ),
+)
